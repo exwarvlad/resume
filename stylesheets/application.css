@@ -58,7 +58,7 @@ ul li {
 }
 
 .not_show {
-    display: none;
+    display: none !important;
 }
 
 @media print {
