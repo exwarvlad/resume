@@ -56,3 +56,18 @@ ul li {
     float: right;
     /*padding-bottom: 30px;*/
 }
+
+.not_show {
+    display: none;
+}
+
+@media print {
+    .no-print {
+        display: none;
+    }
+
+    .print {
+        display: block;
+        visibility: visible;
+    }
+}
