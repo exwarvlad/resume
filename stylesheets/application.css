@@ -14,10 +14,6 @@ body {
     zoom: 1;
 }
 
-h2 {
-    /*color: #428bca;*/
-}
-
 .sidebar {
     min-height: 720px;
 }
@@ -29,14 +25,25 @@ h2 {
 }
 
 img {
+    width: 42px;
+    height: 42px;
 }
 
-ul li {
+.avatar {
+    width: 188px;
+    height: 188px;
+}
+
+ul.bar-info li {
     display: table-cell;
     height: 100px;
     list-style-type: none;
     padding: 20px;
     vertical-align: middle;
+}
+
+.technology-stack li {
+    margin-bottom: 5px
 }
 
 
@@ -54,7 +61,6 @@ ul li {
 
 .text-right {
     float: right;
-    /*padding-bottom: 30px;*/
 }
 
 .not_show {
@@ -70,4 +76,19 @@ ul li {
         display: block;
         visibility: visible;
     }
+}
+
+.buffer-bottom-0 {
+    margin-bottom: 0;
+}
+
+@media (max-width: 965px) {
+    .sm-resize {
+        max-width: 100%
+    }
+}
+
+.balalaika {
+    width: 27px;
+    height: 27px;
 }
