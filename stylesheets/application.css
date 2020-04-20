@@ -8,7 +8,6 @@ body {
 }
 
 .main {
-    /*margin-left: 42px;*/
     padding: 0 24px;
     margin: 0 auto;
     zoom: 1;
@@ -91,4 +90,16 @@ ul.bar-info li {
 .balalaika {
     width: 27px;
     height: 27px;
+}
+
+.unset {
+    all: unset;
+}
+
+.buffer-left-10 {
+    padding-left: 10px;
+}
+
+.buffer-left-80-percent {
+    padding-left: 80%
 }
