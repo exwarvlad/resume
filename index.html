@@ -20,16 +20,21 @@
     <div class="container">
         <ul class="bar-info">
             <li>
-                <a href="" class="text-dark" onclick="window.print();"><span class="oi oi-print" title="print or save pdf" aria-hidden="true">&nbsp;</span>Save CV</a>
+                <a href="" class="text-dark" onclick="window.print();"><span class="oi oi-print"
+                                                                             title="print or save pdf"
+                                                                             aria-hidden="true">&nbsp;</span>Save CV</a>
             </li>
             <li>
-                <a href="mailto:exwarvlad@gmail.com" class="text-dark"><span class="oi oi-envelope-open">&nbsp;</span>Email me</a>
+                <a href="mailto:exwarvlad@gmail.com" class="text-dark"><span class="oi oi-envelope-open">&nbsp;</span>Email
+                    me</a>
             </li>
             <li>
-                <a href="https://github.com/exwarvlad" class="text-dark" target="_blank"><i class="fa fa-github-alt" aria-hidden="true">&nbsp;</i>GitHub</a>
+                <a href="https://github.com/exwarvlad" class="text-dark" target="_blank"><i class="fa fa-github-alt"
+                                                                                            aria-hidden="true">&nbsp;</i>GitHub</a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/влад-акимов-205435161" class="text-dark" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true">&nbsp;</i>Linkedin</a>
+                <a href="https://www.linkedin.com/in/влад-акимов-205435161" class="text-dark" target="_blank"><i
+                        class="fa fa-linkedin-square" aria-hidden="true">&nbsp;</i>Linkedin</a>
             </li>
         </ul>
     </div>
@@ -57,19 +62,46 @@
 
     <section>
         <header class="section-header">
-            <h2>Недавний проект</h2>
+            <h2>Недавние проекты</h2>
         </header>
 
         <div>
+            <p><a href="https://github.com/exwarvlad/rajilla"
+                  target="_blank">Rajilla</a> API (no REST) <nobr class="cooking-of-project media-305"><img src="images/coocking.png" alt="[cooking]"> <strong>14</strong> дней</nobr></p>
+
+            <h4>Короткое описание по которому сразу понятно</h4>
+
+            <p>Создаёт проекты и под них задачи
+                При создании задачи — ей передается поле urls, в котором указываются ссылки
+                на файлы. Это ссылки именно на файлы. После создания задачи
+                эти файлы объединяются в архив и этот архив закачивается на AWS S3.
+                По мере формирования архива на web-socket показывается прогресс в % сформированного архива </p>
+
+            <h5>Основные фичи</h5>
+
+            <ul>
+                <li>Файлы объединяются в архив через стриминговую загрузку
+                    побайтно. Контроль над контентом не пропустит Big Data котрый мог бы переполнить память сервера
+                </li>
+                <li>На 99-ти % нужно немного подождать. Сделано по аналогии приложений Windows</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="buffer-top-6400">
             <p>Высоконагрузочное<a href="https://github.com/exwarvlad/text_self_destruction"
-                                   target="_blank"> приложение</a> с самоуничтожающими сообщениями</p>
+                           target="_blank"> приложение</a> с самоуничтожающими сообщениями
+                <nobr class="cooking-of-project media-1172"><img src="images/coocking.png" alt="[cooking]"> <strong>6</strong> дней</nobr></p>
             <ul>
                 <li>по времени</li>
                 <li>по посещениям</li>
             </ul>
             <p>Масштаб данных приложения составляет более 1 000 000 записей с удивительной функциональностью отклика</p>
-            <p>Я использовал Postgres и Redis в качестве баз данных + сервис DeadShot, который уничтожает сообщения об истечении срока действия</p>
-            <p>Я решил проблему с большой нагрузкой благодаря великолепному дизайну системы и превосходным алгоритмам</p>
+            <p>Я использовал Postgres и Redis в качестве баз данных + сервис DeadShot, который уничтожает сообщения об
+                истечении срока действия</p>
+            <p>Я решил проблему с большой нагрузкой благодаря великолепному дизайну системы и превосходным
+                алгоритмам</p>
         </div>
     </section>
 
@@ -77,43 +109,61 @@
         <header class="section-header">
             <h2>Опыт работы и профи-навыки</h2>
         </header>
-        <span class="buffer-left-10">Сильный <a href="https://www.codewars.com/users/exwarvlad" target="_blank">CodeWar</a> кодер</span> <br>
+        <span class="buffer-left-10">Сильный <a href="https://www.codewars.com/users/exwarvlad"
+                                                target="_blank">CodeWar</a> кодер</span> <br>
         <img src="https://www.codewars.com/users/exwarvlad/badges/large" alt="CodeWar" class="unset"> <br><br>
-            <p>Занимаюсь программирование на Ruby с 2015 года</p>
-            <p>Комерчиской разработка 3 года</p>
-            <hr>
-            <p>Декабрь 2019 - Март 2020 работал в компании <a href="https://www.softserveinc.com/en-us" target="_blank">SoftServe</a></p>
-            <p>Обновил более <strong>2</strong> CRM версий Rails 4 до 5.2 +</p>
-            <p>Использовал Jenkins, Git и комуникацию с опытными коллегами</p>
-            <hr>
+        <p>Занимаюсь программирование на Ruby с 2015 года</p>
+        <p>Комерчиской разработка 3.5 года</p>
+        <hr>
 
-            <p class="buffer-bottom-0"><nobr>Январь 2019 — Сентябрь 2019</nobr> работал над проектами амереканских заказчиков</p>
-            <p>Разрабатывал проект в сфере юриспруденции <a href="https://www.sket.io/" target="_blank">Sket</a></p>
-            <p>Снизил нагрузку на главной странице приложения с O(n) до O(10) добавлением ленивой загрузки и оптимальных
-                sql-запросов для фильтрации клиетских данных
-            </p>
-            <p>Проводил деплоии в команде на продакшен сервер</p>
-            <p>Получил рекомендацию на  <a href="https://www.linkedin.com/in/влад-акимов-205435161"
-                                                   target="_blank">
-                Linkedin</a> после ухода </p>
-            <hr>
+        <p>Март 2020 — Time.zone.now</p>
+        <p>Фриланс и совершенствование своих скиллов</p>
+        <hr>
 
-            <p><nobr>Июнь 2017 — Июль 2018</nobr> работал в компании <a href="https://www.smileexpo.com.ua" target="_blank">SmileExpo</a>
-                разрабатал более <strong>6</strong> плагинов, для системы Redmine</p>
-            <p>Маштабировал интеграцию данных клиентов с добавлением <strong>ESB Kafka</strong></p>
-            <p>Занимался администрированием сервера <strong>ESB Kafka</strong></p>
-            <hr>
+        <p>Декабрь 2019 - Март 2020 работал в компании <a href="https://www.softserveinc.com/en-us" target="_blank">SoftServe.</a>
+        Я работал над созданием <a target="_blank" href="https://www.google.com/search?rlz=1C5CHFA_enUA882UA882&sxsrf=ALeKk01EyUVdNte0Q2aIGwIn7st-hJNWbw%3A1604947979413&ei=C5CpX6LfGIWvrgSi3ZDQAw&q=teladoc&oq=teledoc&gs_lcp=CgZwc3ktYWIQAzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQR1AAWABg1mJoAHABeACAAQCIAQCSAQCYAQCqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab&ved=0ahUKEwjikMiRkfbsAhWFl4sKHaIuBDoQ4dUDCA0&uact=5">
+                приложения</a> в сфере медицины</p>
+        <p>Помог обновить более <strong>5</strong> CRM версий Rails 4 до 5.2 +</p>
+        <p>Использовал Jenkins, Git и комуникацию с опытными коллегами</p>
+        <hr>
 
-            <p>Использую такие технологии:</p>
-            <ul class="technology-stack">
-                <li><img src="images/ruby.png" alt="[Ruby]"> Ruby <strong>ниндзя</strong></li>
-                <li><img src="images/rails.png" alt="[Ruby on Rails]"> Ruby on Rails 6 на <strong>продвинутом</strong> уровне</li>
-                <li><img src="images/redis.png" alt="[Redis]"> Redis на <strong>хорошем</strong> уровне</li>
-                <li><img src="images/pg.png" alt="[PG]"> Postgres c <strong>ActiveRecord великолепно</strong></li>
-                <li><img src="images/rspec.png" alt="[Rspec]"> Rspec владею на <strong>хорошем</strong></li>
-                <li><img src="images/es6.png" alt=""> ES6 использую на <strong>хорошем</strong> уровне</li>
-                <li><img src="images/english_spoken.png" alt="[English]"> English verbal and written at functional <strong>business level</strong> (advanced in technical English)</li>
-            </ul>
+        <p class="buffer-bottom-0">
+            <nobr>Январь 2019 — Сентябрь 2019</nobr>
+            работал над проектами амереканских заказчиков
+        </p>
+        <p>Разрабатывал проект в сфере юриспруденции <a href="https://www.sket.io/" target="_blank">Sket</a></p>
+        <p>Снизил нагрузку на главной странице приложения с O(n) до O(10) добавлением ленивой загрузки и оптимальных
+            sql-запросов для фильтрации клиетских данных
+        </p>
+        <p>Проводил деплоии в команде на продакшен сервер</p>
+        <p>Получил рекомендацию на <a href="https://www.linkedin.com/in/влад-акимов-205435161"
+                                      target="_blank">
+            Linkedin</a> после ухода </p>
+        <hr>
+
+        <p>
+            <nobr>Июнь 2017 — Июль 2018</nobr>
+            работал в компании <a href="https://www.smileexpo.com.ua" target="_blank">SmileExpo</a>
+            разрабатал более <strong>6</strong> плагинов, для системы Redmine
+        </p>
+        <p>Маштабировал интеграцию данных клиентов с добавлением <strong>ESB Kafka</strong></p>
+        <p>Занимался администрированием сервера <strong>ESB Kafka</strong></p>
+        <hr>
+
+        <p>Использую такие технологии:</p>
+        <ul class="technology-stack">
+            <li><img src="images/ruby.png" alt="[Ruby]"> Ruby <strong>ниндзя</strong></li>
+            <li><img src="images/rails.png" alt="[Ruby on Rails]"> Ruby on Rails на <strong>продвинутом</strong>
+                уровне
+            </li>
+            <li><img src="images/redis.png" alt="[Redis]"> Redis на <strong>хорошем</strong> уровне</li>
+            <li><img src="images/pg.png" alt="[PG]"> Postgres c <strong>ActiveRecord великолепно</strong></li>
+            <li><img src="images/rspec.png" alt="[Rspec]"> Rspec владею на <strong>хорошем</strong></li>
+            <li><img src="images/es6.png" alt=""> ES6 использую на <strong>хорошем</strong> уровне</li>
+            <li><img src="images/english_spoken.png" alt="[English]"> English verbal and written at functional <strong>business
+                level</strong> (advanced in technical English)
+            </li>
+        </ul>
     </section>
 
     <section>
@@ -132,12 +182,21 @@
 
         <div>
             <p>Прошел онлайн-курсы по Ruby/Ruby on Rails.
-                Отследить можно у меня на <a href="https://goodprogrammer.ru/users/1835" target="_blank">аккаунте</a></p>
-            <p>Изучал такие книги: Программирование на языке <nobr>Ruby — Хэл Фултон.</nobr> Объектно-ориентированный анализ и
-                проектирование с примерами <nobr>приложений — Гради Бучь.</nobr> Совершенный
-                <nobr>код — Стив</nobr> Макконнелл. The Rails 4 <nobr>Way — Кевин Фаустино</nobr>
+                Отследить можно у меня на <a href="https://goodprogrammer.ru/users/1835" target="_blank">аккаунте</a>
             </p>
-            <p><nobr>Получал наставничество от тимлида над реальными проектами</nobr></p>
+            <p>Изучал такие книги: Программирование на языке
+                <nobr>Ruby — Хэл Фултон.</nobr>
+                Объектно-ориентированный анализ и
+                проектирование с примерами
+                <nobr>приложений — Гради Бучь.</nobr>
+                Совершенный
+                <nobr>код — Стив</nobr>
+                Макконнелл. The Rails 4
+                <nobr>Way — Кевин Фаустино</nobr>
+            </p>
+            <p>
+                <nobr>Получал наставничество от тимлида над реальными проектами</nobr>
+            </p>
         </div>
     </section>
 </div>

@@ -103,3 +103,45 @@ ul.bar-info li {
 .buffer-left-80-percent {
     padding-left: 80%
 }
+
+.buffer-top-6400 {
+    padding-top: 6.400px;
+}
+
+.cooking-of-project {
+    position: relative;
+    bottom: 15px;
+    left: 5px;
+}
+
+@media(max-width: 301px) {
+    .cooking-of-project.media-301 {
+        position: static;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+@media(max-width: 305px) {
+    .cooking-of-project.media-305 {
+        position: static;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+@media(max-width: 805px) {
+    .cooking-of-project.media-805 {
+        position: static;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+@media(max-width: 1172px) {
+    .cooking-of-project.media-1172 {
+        position: static;
+        bottom: 0;
+        left: 0;
+    }
+}
