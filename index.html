@@ -20,185 +20,128 @@
     <div class="container">
         <ul class="bar-info">
             <li>
-                <a href="" class="text-dark" onclick="window.print();"><span class="oi oi-print"
-                                                                             title="print or save pdf"
-                                                                             aria-hidden="true">&nbsp;</span>Save CV</a>
+                <a href="" class="text-dark" onclick="window.print();"><span class="oi oi-print" title="print or save pdf" aria-hidden="true">&nbsp;</span>Save CV</a>
             </li>
             <li>
-                <a href="mailto:exwarvlad@gmail.com" class="text-dark"><span class="oi oi-envelope-open">&nbsp;</span>Email
-                    me</a>
+                <a href="mailto:exwarvlad@gmail.com" class="text-dark"><span class="oi oi-envelope-open">&nbsp;</span>Email me</a>
             </li>
             <li>
-                <a href="https://github.com/exwarvlad" class="text-dark" target="_blank"><i class="fa fa-github-alt"
-                                                                                            aria-hidden="true">&nbsp;</i>GitHub</a>
+                <a href="https://github.com/exwarvlad" class="text-dark" target="_blank"><i class="fa fa-github-alt" aria-hidden="true">&nbsp;</i>GitHub</a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/влад-акимов-205435161" class="text-dark" target="_blank"><i
-                        class="fa fa-linkedin-square" aria-hidden="true">&nbsp;</i>Linkedin</a>
+                <a href="https://www.linkedin.com/in/vlad-akymov-205435161/" class="text-dark" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true">&nbsp;</i>Linkedin</a>
             </li>
         </ul>
     </div>
 
-    <div class="text-right">
-        <a href="eng.html"><img src="images/eng.png" alt="eng" title="Резюме на английском"></a>
-    </div>
-
     <div class="row buffer-center">
-        <img src="images/circle.gif" alt="[ava]" class="avatar position">
+        <a href="mailto:exwarvlad@gmail.com" target="_blank"><img src="images/ava.jpeg" alt="[ava]" class="avatar position"></a>
         <div class="col-md-1 sm-resize">
-            <h1>Владислав Сергеевич Акимов</h1>
+            <h1>Vladislav Sergeevich Akymov</h1>
         </div>
     </div>
 
     <section>
         <header class="section-header">
-            <h2>Цель</h2>
+            <h2>Target</h2>
         </header>
 
         <div>
-            <p>Получить оффер Ruby on Rails developer или engineer с удалённым сотрудничеством</p>
+            <p>Receive offer Ruby on Rails developer or engineer with remote working</p>
         </div>
     </section>
 
     <section>
         <header class="section-header">
-            <h2>Недавние проекты</h2>
+            <h2>Recent projects</h2>
         </header>
 
         <div>
             <p><a href="https://github.com/exwarvlad/rajilla"
-                  target="_blank">Rajilla</a> API (no REST) <nobr class="cooking-of-project media-305"><img src="images/coocking.png" alt="[cooking]"> <strong>14</strong> дней</nobr></p>
+                  target="_blank">Rajilla</a> API (no REST) <nobr class="cooking-of-project media-301"><img src="images/coocking.png" alt="[cooking]"> <strong>14</strong> days</nobr></p>
 
-            <h4>Короткое описание по которому сразу понятно</h4>
+            <h4>Short description by which is clear at once</h4>
 
-            <p>Создаёт проекты и под них задачи
-                При создании задачи — ей передается поле urls, в котором указываются ссылки
-                на файлы. Это ссылки именно на файлы. После создания задачи
-                эти файлы объединяются в архив и этот архив закачивается на AWS S3.
-                По мере формирования архива на web-socket показывается прогресс в % сформированного архива </p>
+            <p>Creates projects and tasks for them.
+                When creating a task, the urls field is passed to it, in which links are indicated
+                to files. These are links to files. After creating a task
+                these files are combined into an archive and this archive is uploaded to <nobr>AWS S3.</nobr>
+                While the archive is being formed, the progress of  formed archive is sent to the web socket in %</p>
 
-            <h5>Основные фичи</h5>
+            <h5>Main features</h5>
 
             <ul>
-                <li>Файлы объединяются в архив через стриминговую загрузку
-                    побайтно. Контроль над контентом не пропустит Big Data котрый мог бы переполнить память сервера
-                </li>
-                <li>На 99-ти % нужно немного подождать. Сделано по аналогии приложений Windows</li>
+                <li>Files are archived via streaming download by byte. Content control won’t let Big Data through which could overflow server memory</li>
+                <li>At 99% it need to wait a little. It developed by analogy with Windows Applications</li>
             </ul>
         </div>
 
         <hr>
 
         <div class="buffer-top-6400">
-            <p>Высоконагрузочное<a href="https://github.com/exwarvlad/text_self_destruction"
-                           target="_blank"> приложение</a> с самоуничтожающими сообщениями
-                <nobr class="cooking-of-project media-1172"><img src="images/coocking.png" alt="[cooking]"> <strong>6</strong> дней</nobr></p>
+            <p>High load<a href="https://github.com/exwarvlad/text_self_destruction"
+                           target="_blank"> application</a> with self destruction messages
+                <nobr class="cooking-of-project media-805"><img src="images/coocking.png" alt="[cooking]"> <strong>6</strong> days</nobr></p>
             <ul>
-                <li>по времени</li>
-                <li>по посещениям</li>
+                <li>with timestamp</li>
+                <li>after number of link visits</li>
             </ul>
-            <p>Масштаб данных приложения составляет более 1 000 000 записей с удивительной функциональностью отклика</p>
-            <p>Я использовал Postgres и Redis в качестве баз данных + сервис DeadShot, который уничтожает сообщения об
-                истечении срока действия</p>
-            <p>Я решил проблему с большой нагрузкой благодаря великолепному дизайну системы и превосходным
-                алгоритмам</p>
+            <p>The application data scale is more 1 000 000 records with amazing functionality response </p>
+            <p>I used Postgres and Redis as databases + DeadShot service which destroy expire messages</p>
+            <p>I decided problem with large load through great system design and excellent algorithms</p>
         </div>
     </section>
 
     <section>
         <header class="section-header">
-            <h2>Опыт работы и профи-навыки</h2>
+            <h2>Experience and professional skills</h2>
         </header>
-        <span class="buffer-left-10">Сильный <a href="https://www.codewars.com/users/exwarvlad"
-                                                target="_blank">CodeWar</a> кодер</span> <br>
-        <img src="https://www.codewars.com/users/exwarvlad/badges/large" alt="CodeWar" class="unset"> <br><br>
-        <p>Занимаюсь программирование на Ruby с 2015 года</p>
-        <p>Комерчиской разработка 3.5 года</p>
+
+        <p>I have been programming with Ruby since 2015 </p>
+        <p>I have 4 years commercial development experience. More in my <a href="https://www.linkedin.com/in/vlad-akymov-205435161/" target="_blank">Linkedin</a></p>
+        <span class="buffer-left-10">Amazing <a href="https://leetcode.com/exwarvlad/" target="_blank">LeetCode</a> algorithms solver</span> <br>
+        <span class="buffer-left-10">Incredible <a href="https://www.codewars.com/users/exwarvlad" target="_blank">CodeWar</a> coder</span> <br>
+        <img src="https://www.codewars.com/users/exwarvlad/badges/large" alt="CodeWar" class="unset"> <br>
         <hr>
 
-        <p>Март 2020 — Time.zone.now</p>
-        <p>Фриланс и совершенствование своих скиллов</p>
-        <hr>
-
-        <p>Декабрь 2019 - Март 2020 работал в компании <a href="https://www.softserveinc.com/en-us" target="_blank">SoftServe.</a>
-        Я работал над созданием <a target="_blank" href="https://www.google.com/search?rlz=1C5CHFA_enUA882UA882&sxsrf=ALeKk01EyUVdNte0Q2aIGwIn7st-hJNWbw%3A1604947979413&ei=C5CpX6LfGIWvrgSi3ZDQAw&q=teladoc&oq=teledoc&gs_lcp=CgZwc3ktYWIQAzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQRzIECAAQR1AAWABg1mJoAHABeACAAQCIAQCSAQCYAQCqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab&ved=0ahUKEwjikMiRkfbsAhWFl4sKHaIuBDoQ4dUDCA0&uact=5">
-                приложения</a> в сфере медицины</p>
-        <p>Помог обновить более <strong>5</strong> CRM версий Rails 4 до 5.2 +</p>
-        <p>Использовал Jenkins, Git и комуникацию с опытными коллегами</p>
-        <hr>
-
-        <p class="buffer-bottom-0">
-            <nobr>Январь 2019 — Сентябрь 2019</nobr>
-            работал над проектами амереканских заказчиков
-        </p>
-        <p>Разрабатывал проект в сфере юриспруденции <a href="https://www.sket.io/" target="_blank">Sket</a></p>
-        <p>Снизил нагрузку на главной странице приложения с O(n) до O(10) добавлением ленивой загрузки и оптимальных
-            sql-запросов для фильтрации клиетских данных
-        </p>
-        <p>Проводил деплоии в команде на продакшен сервер</p>
-        <p>Получил рекомендацию на <a href="https://www.linkedin.com/in/влад-акимов-205435161"
-                                      target="_blank">
-            Linkedin</a> после ухода </p>
-        <hr>
-
-        <p>
-            <nobr>Июнь 2017 — Июль 2018</nobr>
-            работал в компании <a href="https://www.smileexpo.com.ua" target="_blank">SmileExpo</a>
-            разрабатал более <strong>6</strong> плагинов, для системы Redmine
-        </p>
-        <p>Маштабировал интеграцию данных клиентов с добавлением <strong>ESB Kafka</strong></p>
-        <p>Занимался администрированием сервера <strong>ESB Kafka</strong></p>
-        <hr>
-
-        <p>Использую такие технологии:</p>
+        <p>I also use these technologies</p>
         <ul class="technology-stack">
-            <li><img src="images/ruby.png" alt="[Ruby]"> Ruby <strong>ниндзя</strong></li>
-            <li><img src="images/rails.png" alt="[Ruby on Rails]"> Ruby on Rails на <strong>продвинутом</strong>
-                уровне
-            </li>
-            <li><img src="images/redis.png" alt="[Redis]"> Redis на <strong>хорошем</strong> уровне</li>
-            <li><img src="images/pg.png" alt="[PG]"> Postgres c <strong>ActiveRecord великолепно</strong></li>
-            <li><img src="images/rspec.png" alt="[Rspec]"> Rspec владею на <strong>хорошем</strong></li>
-            <li><img src="images/es6.png" alt=""> ES6 использую на <strong>хорошем</strong> уровне</li>
-            <li><img src="images/english_spoken.png" alt="[English]"> English verbal and written at functional <strong>business
-                level</strong> (advanced in technical English)
-            </li>
+            <li><img src="images/ruby.png" alt="[Ruby]"> Ruby <strong>lord</strong> level</li>
+            <li><img src="images/rails.png" alt="[Ruby on Rails]"> Ruby on Rails <strong>high</strong> level</li>
+            <li><img src="images/redis.png" alt="[Redis]"> Redis <strong>high</strong> level</li>
+            <li><img src="images/pg.png" alt="[PG]"> PG/SQL <strong>amazing</strong> level</li>
+            <li><img src="images/rspec.png" alt="[Rspec]"> Rspec <strong>lord</strong> level</li>
+            <li><img src="images/es6.png" alt=""> ES6 <strong>good</strong> level</li>
+            <li><img src="images/english_spoken.png" alt="[English]"> English verbal and written at functional <strong>business level</strong> (advanced in technical English)</li>
         </ul>
     </section>
 
     <section>
         <header class="section-header">
-            <h2>О себе</h2>
+            <h2>About yourself</h2>
         </header>
 
-        <p>Я люблю создавать новые вещи, воплощать их в реальность, всегда узнавать новоё и улучшать своё старое</p>
-        <q class="buffer-left-80-percent">Моя цитата.</q>
+        <p>I like to create new things, deploy them, always looking for new information and improving my skills</p>
+        <q class="buffer-left-80-percent">My quote.</q>
     </section>
 
     <section>
         <header class="section-header">
-            <h2>Образование программиста</h2>
+            <h2>Education of programmer</h2>
         </header>
 
         <div>
-            <p>Прошел онлайн-курсы по Ruby/Ruby on Rails.
-                Отследить можно у меня на <a href="https://goodprogrammer.ru/users/1835" target="_blank">аккаунте</a>
+            <p>I completed the <a href="https://goodprogrammer.ru/users/1835" target="_blank">Ruby on Rails course</a> in less than 3 months / I completed the course with a grade of 95%</p>
+            <p>I study books as well as Ruby <nobr>programming — Hal Fulton.</nobr> Object-Oriented Analysis and Design with
+                <nobr>Applications — Grady Booch.</nobr> CODE
+                <nobr>COMPLETE — Steve</nobr> McConnell. The Rails 4 <nobr>Way — Kevin Faustino</nobr>
             </p>
-            <p>Изучал такие книги: Программирование на языке
-                <nobr>Ruby — Хэл Фултон.</nobr>
-                Объектно-ориентированный анализ и
-                проектирование с примерами
-                <nobr>приложений — Гради Бучь.</nobr>
-                Совершенный
-                <nobr>код — Стив</nobr>
-                Макконнелл. The Rails 4
-                <nobr>Way — Кевин Фаустино</nobr>
-            </p>
-            <p>
-                <nobr>Получал наставничество от тимлида над реальными проектами</nobr>
-            </p>
+            <p>I was receiving experience by my teamleader and my team  + Over the past two years I have worked in a team
+                and learned valuable skills from my teamleader including, time management, communication, strategizing,
+                agile scheduling etc</p>
         </div>
     </section>
 </div>
 </body>
 </html>
+
